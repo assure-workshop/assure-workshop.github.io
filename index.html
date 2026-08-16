@@ -12,7 +12,6 @@
   <header class="hero">
     <nav class="nav" aria-label="Main navigation">
       <a href="#about">About</a>
-      <a href="#scope">Scope</a>
       <a href="#topics">Topics</a>
       <a href="#submissions">Submissions</a>
       <a href="#dates">Dates</a>
@@ -25,9 +24,9 @@
       <p class="eyebrow">
         <span>Co-located with SANER 2027</span>
         <span class="eyebrow-separator">&middot;</span>
-        <span>34th IEEE International Conference on Software Analysis, Evolution and Reengineering</span>
+        <span class="conference-line">34th IEEE International Conference on Software Analysis, Evolution and Reengineering</span>
       </p>
-      <h1>ASSURE-AI</h1>
+      <h1><img class="hero-logo" src="assets/assure-ai-logo-light.svg" alt="ASSURE-AI" /></h1>
       <p class="lead">
         International Workshop on Security Assurance for AI-Assisted Software Engineering
       </p>
@@ -40,59 +39,27 @@
 
   <main>
     <section id="about" class="section">
-      <div class="container two-column">
+      <div class="container">
         <div>
           <h2>About ASSURE-AI</h2>
           <p>
-            AI-assisted software engineering is becoming part of everyday software analysis,
-            evolution, maintenance, and reengineering. Developers increasingly use AI coding
-            assistants and agentic tools to inspect code, review pull requests, generate patches,
-            repair defects, refactor systems, update dependencies, write tests, and explain
-            vulnerabilities.
+            AI-assisted software engineering is becoming integral to software analysis, evolution,
+            maintenance, and reengineering. Developers increasingly rely on coding assistants and
+            agentic tools to inspect code, review pull requests, generate patches, repair defects,
+            refactor systems, update dependencies, write tests, and explain vulnerabilities. While
+            these tools can improve productivity, they can also introduce vulnerabilities, produce
+            incomplete fixes, or create unwarranted confidence in insecure software.
           </p>
           <p>
-            While AI tools can improve productivity, their outputs may also introduce
-            vulnerabilities, generate incomplete fixes, produce misleading security explanations,
-            or create unwarranted confidence in insecure code. ASSURE-AI focuses on the
-            evidence, methods, and validation processes needed to support justified security
-            claims about AI-generated or AI-modified software.
+            ASSURE-AI advances security assurance for AI-assisted software engineering by examining
+            the evidence, methods, and validation processes needed to determine whether AI-generated
+            or AI-modified software is ready for review, integration, or deployment. The workshop
+            welcomes research and experience on vulnerability analysis, code review, patch
+            validation, regression analysis, security testing, provenance, auditability, compliance,
+            benchmarks, datasets, and human-in-the-loop validation across both agentic and
+            non-agentic AI tools.
           </p>
         </div>
-        <aside class="card">
-          <h3>Workshop at a glance</h3>
-          <ul class="plain">
-            <li><strong>Name:</strong> ASSURE-AI</li>
-            <li><strong>Venue:</strong> SANER 2027 Workshops</li>
-            <li><strong>Format:</strong> Full-day interactive workshop</li>
-            <li><strong>Scope:</strong> Security assurance for AI-assisted software engineering</li>
-            <li><strong>Proceedings:</strong> IEEE SANER companion proceedings</li>
-          </ul>
-        </aside>
-      </div>
-    </section>
-
-    <section id="scope" class="section muted">
-      <div class="container">
-        <h2>Workshop Scope</h2>
-        <p>
-          ASSURE-AI focuses on security assurance for AI-assisted software engineering: the
-          evidence, methods, and validation processes needed to support claims that
-          AI-generated or AI-modified software is secure enough for review, integration, or
-          deployment.
-        </p>
-        <p>
-          The workshop examines how AI-supported analysis and software-change activities can
-          be assessed, validated, audited, and improved when security is at stake. Relevant
-          activities include vulnerability analysis, code review, pull-request assessment, patch
-          validation, regression analysis, refactoring, migration, modernization, maintenance,
-          security testing, and compliance reasoning.
-        </p>
-        <p>
-          ASSURE-AI welcomes work on agentic and non-agentic AI tools, static and dynamic
-          analysis pipelines, AI-supported security testing, evidence-grounded evaluation,
-          benchmark and dataset design, auditability, developer review, and human-in-the-loop
-          validation.
-        </p>
       </div>
     </section>
 
@@ -117,17 +84,23 @@
       <div class="container">
         <h2>Topics of Interest</h2>
         <p>We welcome submissions on topics including, but not limited to:</p>
-        <div class="grid">
-          <div class="topic">Security assurance for AI-generated and AI-modified software artifacts</div>
-          <div class="topic">AI-assisted vulnerability analysis, code review, patch validation, and security testing</div>
-          <div class="topic">Evidence models for supporting security claims about AI-assisted software changes</div>
-          <div class="topic">False assurance, overconfident explanations, incomplete fixes, and developer overreliance</div>
-          <div class="topic">Regression risks and security impacts of AI-assisted refactoring, repair, migration, and dependency updates</div>
-          <div class="topic">Benchmark, dataset, metric, and evaluation design for AI-assisted security analysis</div>
-          <div class="topic">Provenance, traceability, audit trails, and accountability for AI-generated or AI-modified code</div>
-          <div class="topic">Compliance reasoning and evidence-grounded assessment for secure software maintenance</div>
-          <div class="topic">Industrial experience reports on adopting AI assistants or agents in secure development workflows</div>
-        </div>
+        <ul class="topic-list">
+          <li>Security assurance for AI-generated code</li>
+          <li>Security assurance for AI-modified code</li>
+          <li>AI-assisted vulnerability analysis</li>
+          <li>Secure code review</li>
+          <li>Patch validation and safe repair</li>
+          <li>AI-supported security testing</li>
+          <li>Evidence models for security claims</li>
+          <li>False assurance and overconfidence</li>
+          <li>Regression and refactoring risks</li>
+          <li>Secure dependency updates</li>
+          <li>Benchmarks, datasets, and metrics</li>
+          <li>Provenance and audit trails</li>
+          <li>Compliance and secure maintenance</li>
+          <li>Human-in-the-loop validation</li>
+          <li>Industry experience with AI agents</li>
+        </ul>
       </div>
     </section>
 
@@ -247,7 +220,7 @@
 
           <article class="organizer-card">
             <img src="assets/organizers/hamoud.png" alt="Hamoud Aljamaan" class="organizer-photo">
-            <h3><a href="https://scholar.google.com/citations?user=fksfZOgAAAAJ&hl=en" target="_blank" rel="noopener">Hamoud Aljamaan</a></h3>
+            <h3><a href="http://hjamaan.github.io/" target="_blank" rel="noopener">Hamoud Aljamaan</a></h3>
             <p>King Fahd University of Petroleum and Minerals, Saudi Arabia</p>
             <p><strong>Proceedings Chair</strong></p>
           </article>
@@ -310,5 +283,36 @@
   <footer>
     <p>ASSURE-AI: International Workshop on Security Assurance for AI-Assisted Software Engineering</p>
   </footer>
+
+  <script>
+    const navLinks = [...document.querySelectorAll('.nav a[href^="#"]')];
+    const sections = navLinks
+      .map((link) => document.querySelector(link.getAttribute('href')))
+      .filter(Boolean);
+
+    function setActiveLink(id) {
+      navLinks.forEach((link) => {
+        const isActive = link.getAttribute('href') === `#${id}`;
+        link.toggleAttribute('aria-current', isActive);
+      });
+    }
+
+    navLinks.forEach((link) => link.addEventListener('click', () => {
+      setActiveLink(link.getAttribute('href').slice(1));
+    }));
+
+    function updateActiveLink() {
+      const headerOffset = document.querySelector('.nav').offsetHeight + 24;
+      const currentSection = sections.reduce((active, section) => (
+        section.getBoundingClientRect().top <= headerOffset ? section : active
+      ), sections[0]);
+
+      if (currentSection) setActiveLink(currentSection.id);
+    }
+
+    window.addEventListener('scroll', updateActiveLink, { passive: true });
+    window.addEventListener('resize', updateActiveLink);
+    updateActiveLink();
+  </script>
 </body>
 </html>
