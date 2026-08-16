@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">ASSURE-AI workshop logo</title>
+  <desc id="desc">A navy shield with a gold verification check alongside the ASSURE-AI wordmark.</desc>
+  <defs>
+    <linearGradient id="shield" x1="20" y1="15" x2="160" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b3c78"/>
+      <stop offset="1" stop-color="#06152d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="55" y1="65" x2="141" y2="142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe5a2"/>
+      <stop offset=".48" stop-color="#f5cd6b"/>
+      <stop offset="1" stop-color="#d69e30"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(42 47)">
+    <!-- Intentionally minimal workshop mark: shield + evidence check. -->
+    <path d="M138 5 246 43v76c0 68-42 127-108 161C72 246 30 187 30 119V43L138 5Z" fill="#071a38"/>
+    <path d="M138 12 239 48v71c0 63-39 118-101 151C76 237 37 182 37 119V48l101-36Z" fill="none" stroke="url(#gold)" stroke-linejoin="round" stroke-width="12"/>
+    <!-- Minimal AI-assistance symbol: an intelligent core with connected evidence nodes. -->
+    <rect x="104" y="101" width="68" height="68" rx="12" fill="none" stroke="#f5cd6b" stroke-width="8"/>
+    <path d="M126 123h24v24h-24zM104 123H82m90 0h22M126 101V79m0 90v22M150 101V79m0 90v22" fill="none" stroke="#f5cd6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <circle cx="75" cy="123" r="8" fill="#64c7ff"/><circle cx="197" cy="123" r="8" fill="#64c7ff"/><circle cx="126" cy="72" r="8" fill="#64c7ff"/><circle cx="150" cy="198" r="8" fill="#64c7ff"/>
+  </g>
+  <g fill="#06152d">
+    <text x="330" y="152" font-family="Arial, Helvetica, sans-serif" font-size="118" font-weight="800" letter-spacing="-7">ASSURE</text>
+    <text x="832" y="152" font-family="Georgia, Times, serif" font-size="132" font-weight="700" font-style="italic" fill="#d69e30" letter-spacing="-10">AI</text>
+    <rect x="801" y="66" width="12" height="92" rx="6" fill="#d69e30"/>
+    <text x="335" y="211" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="4" fill="#285a8f">SECURITY ASSURANCE FOR AI-ASSISTED SOFTWARE ENGINEERING</text>
+  </g>
+  <path d="M335 246h778" stroke="#d69e30" stroke-width="4"/>
+  <text x="335" y="289" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="2" fill="#536f8d">INTERNATIONAL WORKSHOP · SANER 2027</text>
+</svg>
