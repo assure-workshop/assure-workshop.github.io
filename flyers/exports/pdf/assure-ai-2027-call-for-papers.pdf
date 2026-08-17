@@ -20,33 +20,47 @@ Gb"-6$$R=KY4k(/adZ>7Yq;r^HV`Yfkp3r:cZILg=aHAqqfACmrVk^6/V5)O&gYHE@QVju#6tKbTTTrB
 endobj
 4 0 obj
 <<
-/Contents 8 0 R /MediaBox [ 0 0 510 721.5 ] /Parent 7 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
-/FormXob.1cc7e89ed592793cd71b580cdc621908 3 0 R
->>
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/A <<
+/S /URI /Type /Action /URI (https://assure-workshop.github.io)
+>> /Border [ 0 0 0 ] /Rect [ 75 4 265 25 ] /Subtype /Link /Type /Annot
 >>
 endobj
 5 0 obj
 <<
-/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+/A <<
+/S /URI /Type /Action /URI (mailto:kelish@floridapoly.edu)
+>> /Border [ 0 0 0 ] /Rect [ 270 4 445 25 ] /Subtype /Link /Type /Annot
 >>
 endobj
 6 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260817133131+03'00') /Creator (anonymous) /Keywords () /ModDate (D:20260817133131+03'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/Annots [ 4 0 R 5 0 R ] /Contents 10 0 R /MediaBox [ 0 0 510 721.5 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
+/FormXob.1cc7e89ed592793cd71b580cdc621908 3 0 R
+>>
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
 >>
 endobj
 7 0 obj
 <<
-/Count 1 /Kids [ 4 0 R ] /Type /Pages
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
 >>
 endobj
 8 0 obj
+<<
+/Author (anonymous) /CreationDate (D:20260817134218+03'00') /Creator (anonymous) /Keywords () /ModDate (D:20260817134218+03'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (untitled) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 1 /Kids [ 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
 <<
 /Filter [ /ASCII85Decode /FlateDecode ] /Length 130
 >>
@@ -54,26 +68,28 @@ stream
 GapA.0b/jZ'LgFKYMuYaGpi`r;(ES!$>Vl[))APu6=\56DKQ6^`:nQY6UijFFN>i^R1=MYPiX9ap/SrVps2ShfDi8/h,#sK0ce4\(K.:[E;.apdG?V2Lp>)PO;hIO)4U~>endstream
 endobj
 xref
-0 9
+0 11
 0000000000 65535 f 
 0000000061 00000 n 
 0000000092 00000 n 
 0000000199 00000 n 
 0002029104 00000 n 
-0002029362 00000 n 
-0002029430 00000 n 
-0002029691 00000 n 
-0002029750 00000 n 
+0002029265 00000 n 
+0002029423 00000 n 
+0002029706 00000 n 
+0002029774 00000 n 
+0002030035 00000 n 
+0002030094 00000 n 
 trailer
 <<
 /ID 
-[<5249a188c4ec33eda56cf97d4abe77ad><5249a188c4ec33eda56cf97d4abe77ad>]
+[<f82f70271008f342162dbbad571082d9><f82f70271008f342162dbbad571082d9>]
 % ReportLab generated PDF document -- digest (opensource)
 
-/Info 6 0 R
-/Root 5 0 R
-/Size 9
+/Info 8 0 R
+/Root 7 0 R
+/Size 11
 >>
 startxref
-2029970
+2030315
 %%EOF

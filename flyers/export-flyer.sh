@@ -41,6 +41,9 @@ page_width = 510
 page_height = page_width * height / width
 document = canvas.Canvas(output, pagesize=(page_width, page_height))
 document.drawImage(ImageReader(image), 0, 0, width=page_width, height=page_height)
+# The source poster is rasterized for visual fidelity; restore the two footer links in the PDF.
+document.linkURL("https://assure-workshop.github.io", (75, 4, 265, 25), relative=0)
+document.linkURL("mailto:kelish@floridapoly.edu", (270, 4, 445, 25), relative=0)
 document.showPage()
 document.save()
 ' "$png" "$pdf"
